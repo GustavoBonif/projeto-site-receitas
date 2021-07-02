@@ -112,6 +112,13 @@ td {
     font-weight: bold;
     box-shadow: 10px
 }
+.rodape {
+	margin: 10px;
+	background-color:rgb(101, 230, 204) ;
+	border-radius: 50px;
+	padding: 10px;
+
+}
 
 
 

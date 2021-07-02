@@ -1,3 +1,117 @@
-body{
-    background-color: #95a5a6;
+body {
+	background-color: blueviolet;
+	margin: 0;
 }
+
+.distancia {
+	background-color:rgb(101, 230, 204);
+	grid-area: d;
+}
+
+header {
+	background-color: rgb(101, 230, 204);
+	grid-area: h;
+	text-align: center;
+	font-size: 20px;
+	
+
+}
+
+button{
+	background-color: rgb(101, 230, 204);
+	width: 100px;
+	border-radius: 8px;
+
+
+
+}
+.botoes {
+	text-align: center;
+}
+
+.logo {
+	grid-area: l; 
+	text-align: center;
+	background-color: pink;
+}
+
+.usuario {
+	grid-area: u;
+	text-align: center;
+}
+
+main {
+	background-color: rgb(184, 224, 224);
+	grid-area: m;
+
+}
+aside {
+	background-color: rgb(250, 243, 210);
+	grid-area: a;
+	padding-right: 10px;
+
+}
+footer {
+	background-color: rgb(232, 172, 191);
+	grid-area: f;
+	
+}
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 6fr 1fr 1fr;
+	grid-template-rows: 3vh 8vh 69vh 10vh 10vh;
+	grid-template-areas: "l l d d d d"
+						"l l h h u u"
+						"a a m m m m"
+						"a a m m m m" 
+						"f f f f f f"
+}
+
+.imagens {
+	float: center;
+	margin-top: 20px;
+	margin-left: 20px;
+	justify-content: space-around;
+	width: 200px;
+	border-color: pink;
+	border-spacing: 6px;
+
+}
+
+.Rec {
+	width: 200px;
+	margin-top: 10px;
+	font-size: 20px;
+	float: left;
+}
+
+footer {
+    font-size: 20px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(232, 172, 191);
+    border-radius: 10px;
+    box-shadow: 10px;
+}
+
+td {
+    background-color: rgb(101, 230, 204);
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 10px;
+}
+
+.menu {
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    font-weight: bold;
+    box-shadow: 10px
+}
+
+
+
